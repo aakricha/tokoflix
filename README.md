@@ -1,7 +1,7 @@
 # Tokoflix
 
 ## Descriptions
-Application build with ReactJS and using https://developers.themoviedb.org/3/getting-started/introduction APIS
+Application build with ReactJS
 
 ## How to use
 #### DEVELOPMENT
