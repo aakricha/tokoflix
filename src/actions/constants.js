@@ -1,0 +1,9 @@
+export const BASE_API_URL = 'https://api.themoviedb.org/';
+export const BASE_IMAGE_URL = 'https://image.tmdb.org/t/p/original';
+export const GET_ALL_MOVIES = 'GET_ALL_MOVIES';
+export const GET_MOVIE_DETAIL = 'GET_MOVIE_DETAIL';
+export const GET_SIMILAR_MOVIES = 'GET_SIMILAR_MOVIES';
+export const GET_RECOMENDATION_MOVIES = 'GET_RECOMENDATION_MOVIES';
+export const GET_BALANCE = 'GET_BALANCE';
+export const BUY_MOVIE = 'BUY_MOVIE';
+export const REACT_APP_API_KEY = 'b1f0ac63f520cdcd38768ecfa45f8f5c';
