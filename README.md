@@ -1,4 +1,5 @@
 # Tokoflix
+Open [https://richa-tokoflix.herokuapp.com](https://richa-tokoflix.herokuapp.com) to view it in the browser.
 
 ## Descriptions
 Application build with ReactJS
