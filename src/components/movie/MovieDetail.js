@@ -6,6 +6,7 @@ import { CardBody, Row, Col, Badge, Container, Alert, Button } from 'reactstrap'
 import { parsePrice, parseDate, parseMoney } from '../../utils';
 import SimilarMovie from './SimilarMovie';
 import RecomendationMovie from './RecomendationMovie';
+import * as $ from 'jquery';
 
 class MovieDetail extends Component {
   constructor(props) {
@@ -99,7 +100,6 @@ class MovieDetail extends Component {
   }
   clickBuy(obj){
     let b = this.state.balance - parsePrice(this.state.movieDetails.vote_average);
-    console.log(this.state.balance, parsePrice(this.state.movieDetails.vote_average), this.state);
     if (b >= 0) {
       let ids = this.state.movie_ids;
       ids.push(parseInt(obj));
@@ -118,6 +118,7 @@ class MovieDetail extends Component {
       localStorage.setItem('movie_ids', JSON.stringify(this.state.movie_ids));
       localStorage.setItem('balance', JSON.stringify(b));
       localStorage.setItem('movies', JSON.stringify(movies));
+      $('#balance').text(parseMoney(b));
     } else {
       alert("Im Sorry! Your Balance not enough");
     }

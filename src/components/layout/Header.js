@@ -51,7 +51,7 @@ class Header extends Component {
             <Nav className="ml-auto" navbar>
               {/* {this.props.onRenderBalance()} */}
               <NavItem>
-                <span className="nav-link">{parseMoney(balance)}</span>
+                <span id="balance" className="nav-link">{parseMoney(balance)}</span>
               </NavItem>
               <NavItem>
                 <NavLink className="nav-link" href="/mymovie">My Movie</NavLink>
