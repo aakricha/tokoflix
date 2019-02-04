@@ -19,18 +19,8 @@ class MovieList extends Component {
       total_pages: 0,
       total_results: 0,
       isFetch: false
-      // region: localStorage.getItem('region')
     }
   }
-  // state = {
-  //   movies: [],
-  //   page: 1,
-  //   total_pages: 0,
-  //   total_results: 0,
-  //   hasMore: false,
-  //   loading: false,
-  //   isFetch: false
-  // };
   componentWillMount() {
     if (this.props.location.search !== "") {
       var que_str = new URLSearchParams(this.props.location.search);
