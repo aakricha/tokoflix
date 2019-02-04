@@ -7,3 +7,4 @@ export const GET_RECOMENDATION_MOVIES = 'GET_RECOMENDATION_MOVIES';
 export const GET_BALANCE = 'GET_BALANCE';
 export const BUY_MOVIE = 'BUY_MOVIE';
 export const REACT_APP_API_KEY = 'b1f0ac63f520cdcd38768ecfa45f8f5c';
+export const ENV_MODE = 'production';
